@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercicio - Aula 14</title>
+</head>
+<body>
+
+    <script>
+        const name = prompt('Type your full name');
+        document.body.innerHTML += `O seu nome é <strong> ${name}</strong> </br>`;
+        document.body.innerHTML += `O seu nome tem <strong>${name.length} </strong>letras</br>`
+        document.body.innerHTML += `A segunda letra do seu nome é: ${name[1]}</br>`
+        document.body.innerHTML += `Qual o primeiro indice da leta <strong>${name.indexOf('a')}</strong> no seu nome?</br>`
+        document.body.innerHTML += `Qual o último índice da leta <strong>${name.lastIndexOf('a')}</strong> no seu nome?</br>`
+        document.body.innerHTML += `As ultimas 3 letras do seu nome são: <strong>${name.slice(-3, name.lenth)}</strong></br>`
+        document.body.innerHTML += `As palavras do seu nome são: <strong>${name.split( ' ' )}</strong></br>`
+        document.body.innerHTML += `Seu nome com letras maiúsculas: <strong>${name.toUpperCase()}</strong></br>` 
+        document.body.innerHTML += `Seu nome com letras minúsculas: <strong>${name.toLowerCase()}</strong></br>` 
+    </script>
+    
+</body>
+</html>
