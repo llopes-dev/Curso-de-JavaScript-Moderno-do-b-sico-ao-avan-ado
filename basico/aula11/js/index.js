@@ -1,6 +1,6 @@
-const num1 = prompt('digite um numero');
-const num2 = prompt('digie o segundo numero');
+let num1 = prompt('digite um numero');
+let num2 = prompt('digie o segundo numero');
 
-soma = parseInt(num1) + parseInt(num2);
+let soma = parseInt(num1) + parseInt(num2);
 
-alert('A soma dos número é ' + soma);
+alert(`A soma dos número é: ${soma}`);
