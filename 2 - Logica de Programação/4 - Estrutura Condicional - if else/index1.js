@@ -9,6 +9,7 @@ Entre 18 - 23 Boa noite
 // sempre que usar o else, usar o if antes
 // Eu posso ter varios Else ifs na checagem
 // Só pode ter 1 Else na Checagem
+ // Podemos usar condições sem else if, utilizando apenas o if e else
 
 const hora = 50;
 
